@@ -14,6 +14,6 @@ app.use(json());
 app.use('/api/user/', userRouter);
 app.use('/api/video/', VideoRouter);
 
-app.listen(3000, () => {
+app.listen(3002, () => {
   console.log(`server is listening on port 3000`);
 });
